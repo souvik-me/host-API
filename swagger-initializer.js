@@ -1,9 +1,9 @@
 window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">
 
-  // the following lines will be replaced by docker/configurator, when it runs in a docker-container
+  // Replace the URL with the path to your own YAML file
   window.ui = SwaggerUIBundle({
-    url: "https://petstore.swagger.io/v2/swagger.json",
+    url: "./souvik-swagger.yaml",  // Update with your YAML file name
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
